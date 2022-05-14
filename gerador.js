@@ -1,10 +1,15 @@
-export function generateNumber(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    
-    randomNumber = Math.floor(Math.random() * (100 - 1)) + 1;
+function generateNumber(min, max) {
 
-    console.log(randomNumber)
+    number = 6;
+
+    for (var i = 0; i < number; i++) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        
+        randomNumber = Math.floor(Math.random() * (max - min)) + min;
+    
+        console.log(randomNumber)
+    }
 }
 
-generateNumber()
+generateNumber(1, 100)
