@@ -1,15 +1,22 @@
 function generateNumber(min, max) {
 
     number = 6;
+    arrayNumber = [];
 
-    for (var i = 0; i < number; i++) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        
-        randomNumber = Math.floor(Math.random() * (max - min)) + min;
+        for (var i = 0; i < number; i++) {
+
+            //gerador de numeros
+            min = Math.ceil(min);
+            max = Math.floor(max);
+
+            randomNumber = Math.floor(Math.random() * (max - min)) + min;
+                        
+            arrayNumber.push(randomNumber); 
+
+        }
     
-        console.log(randomNumber)
-    }
+    console.log(arrayNumber)
+    
 }
 
 generateNumber(1, 100)
