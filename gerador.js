@@ -9,14 +9,14 @@ function generateNumber(min, max) {
             min = Math.ceil(min);
             max = Math.floor(max);
 
-            randomNumber = Math.floor(Math.random() * (max - min)) + min;
+            let randomNumber = Math.floor(Math.random() * (max - min)) + min;
                         
-            arrayNumber.push(randomNumber); 
-
+            arrayNumber.push(randomNumber);   
+            
         }
     
     console.log(arrayNumber)
     
 }
 
-generateNumber(1, 100)
+generateNumber(1, 10)
