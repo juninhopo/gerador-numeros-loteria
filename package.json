@@ -1,0 +1,19 @@
+{
+  "name": "gerador-numeros-loteria",
+  "version": "1.0.0",
+  "description": "Input = Usuario informa quantos numeros quer para loteria",
+  "main": "gerador.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juninhopo/gerador-numeros-loteria.git"
+  },
+  "author": "darlanjr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juninhopo/gerador-numeros-loteria/issues"
+  },
+  "homepage": "https://github.com/juninhopo/gerador-numeros-loteria#readme"
+}

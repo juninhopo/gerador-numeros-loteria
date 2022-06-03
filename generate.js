@@ -1,3 +1,4 @@
+//run gerador.js = node generate.js
 function generateNumber(min, max) {
 
     number = 6;
