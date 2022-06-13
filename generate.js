@@ -12,7 +12,7 @@ function generateNumber(min, max) {
 
             let randomNumber = Math.floor(Math.random() * (max - min)) + min;
                         
-            arrayNumber.push(randomNumber);   
+            arrayNumber.push(randomNumber);
             
         }
     
